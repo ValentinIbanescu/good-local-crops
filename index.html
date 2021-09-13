@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<title>Good Local Food homepage</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/2646dd5d58.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="banner">
+		<h1>Good local food close to your city.</h1>
+		<p>Buy fresh and tasty crops produced in your area while helping the planet.</p>
+		<p>
+		<a class='btn btn-danger btn-lg' href="https://github.com/ValentinIbanescu">Order now</a>
+		</p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="div.col-xs-12 col-sm-6 col-md-3">
+				<div class="card">
+					<img src="images/healthy.svg" alt="healthy" width="70px">
+					<h2>Fresh</h2>
+					<p>Fresh, Tasty and Healthy grown foods on your table</p>
+				</div>
+			</div>
+			<div class="div.col-xs-12 col-sm-6 col-md-3">
+				<div class="card">
+					<img src="images/local_producers.svg" alt="local" width="70px">
+					<h2>Local</h2>
+					<p>Connect with local producers to help your community</p>
+				</div>
+			</div>
+			<div class="div.col-xs-12 col-sm-6 col-md-3">
+				<div class="card">
+					<img src="images/transport.svg" alt="transport" width="70px">
+					<h2>Relax</h2>
+					<p>Pick them yourself and spend relaxing time in nature</p>
+				</div>
+			</div>
+			<div class="div.col-xs-12 col-sm-6 col-md-3">
+				<div class="card">
+					<img src="images/world.svg" alt="sustainable" width="70px">
+					<h2>Sustainable</h2>
+					<p>Help the planet, fight polution and stop pesticides</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+					<span>
+					<ul class='list-inline'>
+					<li><p>©Valentin Ibanescu <span id="date"></span>. Joyfully coded at ©Le Wagon. </li>
+						<script>	n =  new Date();
+					y = n.getFullYear();
+					m = n.getMonth() + 1;
+					d = n.getDate();
+					document.getElementById("date").innerHTML = y;
+					</script>
+					<li> <a href="https://www.facebook.com/lewagon"><i class="fab fa-facebook"></i></a></li>
+					<li> <a href="https://www.instagram.com/lewagonparis/"><i class="fab fa-instagram"></i></a></li>
+					<li> <a href="https://www.youtube.com/le-wagon"><i class="fab fa-youtube"></i></a></li>
+					<li> <a href="https://github.com/ValentinIbanescu" target="_blank"><i class="fab fa-github"></i></a></li>
+					</ul>
+					</span>
+					</p>
+	</div>
+</body>
+</html>
